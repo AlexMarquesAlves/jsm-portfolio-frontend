@@ -1,11 +1,11 @@
 import React from "react";
 
 // components
-import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
+import { About, Footer, Header, Skills, Work } from "./container";
 import { Navbar } from "./components";
 import "./App.scss";
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <Navbar />
@@ -13,10 +13,9 @@ function App() {
       <About />
       <Work />
       <Skills />
-      <Testimonial />
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
